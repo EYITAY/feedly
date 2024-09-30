@@ -17,7 +17,7 @@ import {
 } from '@tanstack/react-table'
 
 import { InferSelectModel } from "drizzle-orm";
-import { feedbacks, projects } from "@/db/schema";
+import { feedbacks} from "@/db/schema";
 
 type Feedback = InferSelectModel<typeof feedbacks>;
 

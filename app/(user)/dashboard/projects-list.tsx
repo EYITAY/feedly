@@ -1,6 +1,6 @@
 import { InferSelectModel } from "drizzle-orm";
 import { projects } from "@/db/schema";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import SubscribeBtn from "../payments/subscribe-btn";
