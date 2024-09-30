@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1727357436028,
+      "tag": "20240926133036_bent_wendigo",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1727367558324,
+      "tag": "20240926161918_remarkable_bedlam",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1727368562630,
+      "tag": "20240926163602_material_bill_hollister",
+      "breakpoints": true
+    }
+  ]
+}
