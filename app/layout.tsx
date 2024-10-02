@@ -6,7 +6,6 @@ import './globals.css'
 import PageHeader from '@/components/page-header';
 import Head from 'next/head';
 import Script from 'next/script';
-
 export default function RootLayout({
   children,
 }: {
