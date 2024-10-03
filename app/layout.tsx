@@ -20,7 +20,7 @@ export default function RootLayout({
         <body>
         <Script src="https://rateaway.vercel.app//widget.umd.js"></Script>
           <PageHeader />
-          <my-widget></my-widget>
+
 
           {children}
         </body>
