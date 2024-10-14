@@ -15,13 +15,12 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <Head>
-          <Script src="https://rateaway.vercel.app//widget.umd.js"></Script>
+          <Script src="https://rateaway.vercel.app/widget.umd.js"></Script>
         </Head>
         <body>
-        <Script src="https://rateaway.vercel.app//widget.umd.js"></Script>
+        <Script src="https://rateaway.vercel.app/widget.umd.js"></Script>
           <PageHeader />
-
-
+          <my-widget></my-widget>
           {children}
         </body>
       </html>
