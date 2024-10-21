@@ -15,7 +15,7 @@ export default function RootLayout({
           <title>FeedBackHub</title>
         </head>
         <body>
-          <Script src="https://feebackhub-widget.vercel.app/widget.umd.js" />
+          <Script src="https://rateaway.vercel.app/widget.umd.js" />
           <Pageheader />
           <my-widget project-id="62"></my-widget>
           {children}
