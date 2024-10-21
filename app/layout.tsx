@@ -12,10 +12,10 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <head>
-          <title>feedly</title>
+          <title>FeedBackHub</title>
         </head>
         <body>
-          <Script src="https://rateaway.vercel.app/widget.umd.js" />
+          <Script src="https://feebackhub-widget.vercel.app/widget.umd.js" />
           <Pageheader />
           <my-widget project-id="62"></my-widget>
           {children}
@@ -24,4 +24,3 @@ export default function RootLayout({
     </ClerkProvider>
   );
 }
-
